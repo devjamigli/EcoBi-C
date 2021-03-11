@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EcoBi-C</string>
+    <string name="title_activity_maps">EcoBi-C</string>
+    <string name="search_text">¿A dónde vamos hoy?</string>
+    <string name="ob_header1">Cuida tu salud</string>
+    <string name="ob_header2">Cuida el medio ambiente</string>
+    <string name="ob_header3">¡Pedalea!</string>
+</resources>

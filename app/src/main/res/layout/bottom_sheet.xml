@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <View
+        android:background="@drawable/card_edge"
+        android:layout_marginBottom="15dp"
+        android:layout_width="55dp"
+        android:layout_height="5dp"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        app:strokeColor="@color/color_primary"
+        app:strokeWidth="1dp"
+        app:cardCornerRadius="18dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/bttmInfoStationName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre del lugar"
+                android:textColor="@color/secondary_variant"
+                android:textStyle="bold"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/bttmInfoStationAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre del lugar"
+                android:textColor="@color/secondary_variant"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bttmInfoStationUpdated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre del lugar"
+                android:textColor="@color/secondary_variant"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        app:strokeColor="@color/color_primary"
+        app:strokeWidth="1dp"
+        app:cardCornerRadius="18dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="Bicicletas"
+                android:textColor="@color/secondary_variant"
+                android:textStyle="bold"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/bttminfoStationBikes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="No. Bikes"
+                android:textColor="@color/secondary_variant"
+                android:textStyle="bold"
+                android:textSize="34sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="Disponibles"
+                android:textColor="@color/secondary_variant"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <Button
+        android:layout_marginVertical="15dp"
+        android:id="@+id/wazeButton"
+        android:background="@drawable/card_edge"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="¡¡Vamos allá!!" />
+
+</LinearLayout>
