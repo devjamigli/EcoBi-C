@@ -1,3 +1,14 @@
+/**
+ * Item OnBoarding
+ *
+ * Elemento base para generar un objeto de tiepo OnBoard
+ * Tiene dos atributos escenciales; id del recurso y un titulo
+ *
+ * @author Jair Migliolo
+ * @version 2020.1103
+ * @since 1.0
+ */
+
 package com.venusdev.ecobi_c.ui.onboarding;
 
 public class OnBoardingItem {

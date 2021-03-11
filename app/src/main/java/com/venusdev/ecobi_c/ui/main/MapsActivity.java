@@ -1,3 +1,14 @@
+/**
+ * Activity MapsActivity
+ *
+ * Activity principal en la que se inicializa el mapa y
+ * se obtienen los datos proporcionados por el adapter CityBikAdapter
+ *
+ * @author Jair Migliolo
+ * @version 2020.1103
+ * @since 1.0
+ */
+
 package com.venusdev.ecobi_c.ui.main;
 
 import androidx.appcompat.app.AppCompatActivity;

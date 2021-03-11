@@ -1,3 +1,17 @@
+/**
+ * Adapter CityBikApiAdapter
+ *
+ * CityBikApiAdapter inicializa un elemento de tipo Retrofit
+ * el cual apunta hacia la base url de la API
+ * Crea un elemento de tipo CityBikApiService el cual
+ * especifica el endpoint a consultar.
+ *
+ * @author Jair Migliolo
+ * @version 2020.1103
+ * @since 1.0
+ */
+
+
 package com.venusdev.ecobi_c.data;
 
 import com.venusdev.ecobi_c.data.response.StationsReponse;

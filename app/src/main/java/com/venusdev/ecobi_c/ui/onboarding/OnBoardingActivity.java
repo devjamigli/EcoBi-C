@@ -1,3 +1,13 @@
+/**
+ * Activity OnBoarding
+ *
+ * Muestra un carrousel con una breve introducción a la aplicación
+ * Solo se muestra una vez, cuando recien se instala.
+ * @author Jair Migliolo
+ * @version 2020.1103
+ * @since 1.0
+ */
+
 package com.venusdev.ecobi_c.ui.onboarding;
 
 import android.content.Intent;
@@ -10,7 +20,6 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
@@ -20,8 +29,6 @@ import com.venusdev.ecobi_c.R;
 import com.venusdev.ecobi_c.ui.main.MapsActivity;
 
 import java.util.ArrayList;
-
-import static java.security.AccessController.getContext;
 
 public class OnBoardingActivity extends AppCompatActivity {
     private LinearLayout pager_indicator;

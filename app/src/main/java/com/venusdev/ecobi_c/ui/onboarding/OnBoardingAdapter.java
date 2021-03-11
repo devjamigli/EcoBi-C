@@ -1,3 +1,14 @@
+/**
+ * Adapter OnBoarding
+ *
+ * Genera e inicializa los elementos dentro del layout
+ * onBoarding item.
+ *
+ * @author Jair Migliolo
+ * @version 2020.1103
+ * @since 1.0
+ */
+
 package com.venusdev.ecobi_c.ui.onboarding;
 
 import android.content.Context;

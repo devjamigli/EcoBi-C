@@ -1,3 +1,14 @@
+/**
+ * DialogFragment BottomSheetDialog
+ *
+ * Fragment construido para mostrar detalles del marcador seleccionado.
+ * Se utiliza un BottomSheetDialogFragment para no cubrir toda la view principal.
+ *
+ * @author Jair Migliolo
+ * @version 2020.1103
+ * @since 1.0
+ */
+
 package com.venusdev.ecobi_c.ui.main;
 
 import android.content.ActivityNotFoundException;
